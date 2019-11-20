@@ -1,0 +1,219 @@
+/* 最外层容器*/
+.lt-rt{
+    width: 520px;
+    height: 500px;
+    /*border: 1px solid red; *//*边框*/
+    margin: 0 auto;
+}
+/*密码登录文字提示*/
+.login-by-pwd{
+    display: block;
+    font-size: 26px;
+    width: 215px;
+    height: 60px;
+    line-height: 60px;
+  /*  border: 1px solid salmon; *//*边框*/
+    margin-left: 100px;
+    color: #ff6000;
+
+
+}
+/*用户名或 密码错误提示*/
+.login-err{
+    width: 450px;
+    height: 60px;
+    margin-left: 30px;
+    line-height: 60px;
+    color:#ff6000 ;
+    font-size: 10px;
+    /*display: none; !*不显示，隐藏*!*/
+}
+
+.login-err .tip-logo{
+    width: 18px;
+    height: 18px;
+    display: block;
+    float: left;
+    background-image: url("../images/tip.png");
+    margin-top: 21px;
+}
+
+
+
+
+
+
+
+
+
+/*输入框区域*/
+.input-area{
+    width:450px ;
+    height: 100px;
+ /*   border: 1px solid blue;*/
+    margin-left: 30px;
+ }
+.username-area{
+    width: 100%;
+    height: 40px ;
+
+    line-height: 40px;
+}
+
+.input-area .username{
+     font-size: 12px;
+    font-weight: bold;
+
+}
+/*.tip{
+    display: none ; *//*用户名与密码的错误提示 不显示 ， !important优先级最高*//*
+}*/
+.input-area .tip{
+    display: block;
+
+    font-size: 10px;
+    float: right;
+
+    display: none ;
+}
+
+/*警告提示logo*/
+.input-area .tip-logo{
+    width: 18px;
+    height: 18px;
+
+    float: left;
+    margin-top: 11px;
+    background-image: url("../images/tip.png");
+}
+
+
+.input-area .tip .tip-msg{
+    margin-left: 10px;
+    color: #ff6000;
+}
+.input-area input{
+    width: 430px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+/*自动登录与忘记密码的div*/
+.lr-ok{
+    width: 450px;
+    height: 20px;
+ /*   border: 1px solid slateblue;*/
+    margin-left: 30px;
+    margin-top: 30px;
+}
+/*自动登陆区域*/
+.lr-ok .auto-login{
+    height: 100%;
+    width:90px;
+
+    float: left;
+    line-height: 20px;
+
+
+}
+
+.lr-ok .auto-login input{
+    border: 1px solid #ff6000;
+
+
+}
+.lr-ok .auto-login span
+{
+    font-size: 10px;
+    color: darkgray;
+}
+
+.lr-ok .forget-pwd{
+    height: 100%;
+    width: 90px;
+
+    float: right;
+    height:20px ;
+    text-align: center;
+
+}
+
+/*忘记密码超链接*/
+.lr-ok .forget-pwd a{
+    font-size: 10px;
+    color: #00457d;
+    text-decoration: none; /*文本装饰，可以修改超链接的下划线*/
+
+
+}
+
+/*登录按钮*/
+.login-btn{
+    width: 450px;
+    height: 40px;
+    background-color: #ff6000; /*背景颜色*/
+    border: none; /*边框取消*/
+    line-height: 40px;
+    color: white;   /*文字颜色*/
+    text-align: center;  /*文字水平居中*/
+    font-size: 20px; /*文字大小*/
+    margin-left: 30px; /*外间距，左间距*/
+    margin-top: 20px;/*外间距，上间距*/
+}
+
+/*第三方登录控件*/
+.third-part-login-logo{
+    width: 450px;
+    height: 60px;
+    margin-left: 30px;
+
+    margin-top: 30px;
+}
+
+
+.wechat-logo , .qq-logo, .weibo-logo{
+    width: 42px;
+    height: 42px;
+
+    float: left;
+
+}
+
+.wechat-logo{
+    margin-left: 120px;
+    background-image: url("../images/wechat.png");
+}
+.qq-logo{
+    margin-left: 40px;
+    background-image: url("../images/qq.png");
+}
+.weibo-logo{
+    margin-left: 40px;
+    background-image: url("../images/weibo.png");
+}
+/*hover 鼠标悬浮*/
+.wechat-logo:hover{
+    background-image: url("../images/wechat-hover.png");
+}
+
+.qq-logo:hover{
+    background-image: url("../images/qq-hover.png");
+}
+
+.weibo-logo:hover{
+    background-image: url("../images/weibo-hover.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

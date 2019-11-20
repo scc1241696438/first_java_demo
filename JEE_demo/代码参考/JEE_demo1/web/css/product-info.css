@@ -1,0 +1,112 @@
+/*
+商品介绍区域
+*/
+.product-intro{
+    height: 350px;
+
+}
+
+.product-intro div{
+    height: 100%;
+   /* border-right: 1px solid #000000;*/
+}
+
+.product-intro img{
+    height: 100%;
+    width: 100%;
+}
+
+/*商品参数*/
+.pro-params .pro-name{
+    height: 60px;
+    line-height: 60px;
+}
+
+.pro-name span{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.pro-params .pro-price{
+    height: 60px;
+    line-height: 60px;
+
+}
+
+/*商品出售价格*/
+.pro-params .pro-price .sale-price{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+/*商品原价*/
+.pro-params .pro-price .origin-price{
+    color: darkgray;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.pro-params .pro-others{
+    height: 150px;
+
+}
+.pro-params .cart-btns{
+    height: 80px;
+
+}
+.pro-params .cart-btns button{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/*颜色参数*/
+.param-color{
+    height: 40px !important;
+
+    margin-left: 30px;
+}
+
+.param-color .params-label{
+    display: block;
+    width: 40px;
+    height: 40px;
+
+    margin-left: 20px;
+    float: left;
+    color: darkgray;
+    line-height: 40px;
+}
+
+.param-color .params-item{
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid darkgray;
+    margin-left: 20px;
+    float: left;
+    line-height: 30px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.param-color .params-item:hover{
+    background-color:  #f8efc0;
+    color: #e38d13;
+    border: none;
+}
+
+/*
+立即购买按钮*/
+.buy-btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #f8efc0;
+    color: #e38d13;
+}
+.buy-btn:hover{
+    font-weight: bold;
+}
+

@@ -1,0 +1,68 @@
+/*第一行的登录区域*/
+.first-nav{
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.first-nav a{
+    color: #000;
+}
+.navi div{
+    height: 50px;
+    line-height: 50px;
+
+}
+
+
+/*第二行的logo 与 搜索框*/
+.logo-area{
+    height: 80px;
+    background-color: bisque;
+    line-height: 80px;
+}
+.logo-area div{
+   /* border-right:1px solid coral ;*/
+}
+
+.search-input{
+    width: 280px;
+    height: 40px ;
+    border: none;
+}
+
+/*第三行中的导航*/
+.nav-main a{
+    color:darkgray ;
+}
+
+.nav-main .home-nav a{
+    color:bisque ;
+}
+
+/*轮播图区域*/
+.banner-img{
+    width: 100%;
+    height: 388px;
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/*热门商品标题*/
+.hot-pro{
+    height: 100px;
+    line-height: 100px;
+
+}
+
+/*商品简述*/
+.pro-desc{
+    font-size: 12px;
+}
+
+.pro-row{
+    margin-bottom:50px ;
+}
